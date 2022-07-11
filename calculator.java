@@ -4,7 +4,7 @@ import java.util.Scanner;
 /*
 *this will be a class in generics to calculate a variety of input in a multi-used calculator
 */
-import java.util.random.*;
+//import java.util.random.*;
 
 
 public class calculator {

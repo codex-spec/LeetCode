@@ -41,11 +41,11 @@ public class LinkedStackTester<E> extends LinkedStack<E> {
         System.out.println(stack2.isEmpty());
         System.out.println(stack2.top());
         System.out.println();
-        stack2.popEverythingRec(stack2.size());
+       // stack2.popEverythingRec(stack2.size());
         System.out.println(stack2.isEmpty());
 
         Stack<Integer> s3 = new LinkedStack<Integer>();
-        s3.transfer(stack1);
+        //s3.transfer(stack1);
         System.out.println(s3.top());
         System.out.println(s3.pop());
         System.out.println(s3.pop());

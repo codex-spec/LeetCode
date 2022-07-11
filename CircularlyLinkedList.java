@@ -17,7 +17,7 @@ public class CircularlyLinkedList<E> {
 
    private int size = 0;
    private Node<E> tail = null;
-   private int size() {return this.size;}
+   //private int size() {return this.size;}
    public E getFirst() {if(isEmpty()){return null;} return tail.getNext().getElement();}
    public void setNext(Node<E> e) {
        this.tail.next = e;

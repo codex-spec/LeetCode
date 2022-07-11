@@ -1,4 +1,5 @@
 class Solution {
+    /*
     public List<List<Integer>> fourSum(int[] A, int t) {
         return kSum(A, t, 4);
     }
@@ -35,4 +36,5 @@ class Solution {
             state.remove(state.size() - 1);
         }
     }
+    */
 }

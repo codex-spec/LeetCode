@@ -25,8 +25,6 @@ public class SinglyLinkedListM<E> {
 
     public boolean isEmpty() {return size == 0;}
 
-    
-
     public void addFirst(E e) {
         head = new Node<E>(e, head);
         if(size == 0) {
@@ -34,7 +32,7 @@ public class SinglyLinkedListM<E> {
         }
         size++;
     }
-    //this is a method which is used to return the sizw of a singly linked list without the size instance variable
+    //this is a method which is used to return the size of a singly linked list without the size instance variable
     public int Size() {
         int c = 1;
         if(isEmpty()) return 0;
