@@ -1,0 +1,20 @@
+class Solution {
+    public boolean isPalindrome(int x) {
+        String t = Integer.toString(x);
+        int[] ta = new int[t.length()];
+        int[] oa = new int[t.length()];
+        int i, j;
+        
+        for(i = 0; i < t.length(); i++) {
+            ta[i] = t.charAt(i) - '0';
+            oa[i] = t.charAt(i) - '0';
+        }
+        
+        for(j = 0; j < ta.length / 2; j++) {
+            int k = ta[j];
+            ta[j] = ta[ta.length - j - 1];
+            ta[ta.length - j - 1] = k;
+        }
+        return Arrays.equals(oa, ta);
+    }
+}
